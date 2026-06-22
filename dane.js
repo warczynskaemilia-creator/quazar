@@ -39,7 +39,7 @@ var DANE = {
   gwarancja_tytul: "Gwarancja terminowości",
   gwarancja_kwota: "3000 zł",
   gwarancja_opis: "Jeśli nie przyjedziemy na czas – dajemy Ci 3000 zł. Tak bardzo wierzymy w nasze słowo. Terminowość to dla nas absolutny standard, nie wyjątek. Klient liczy na nas – i my się nie zawiodę.",
-  gwarancja_video_url: "", // wklej link do wideo np. z YouTube lub zostaw pusty
+  gwarancja_video_url: "https://res.cloudinary.com/dp2cyudg1/video/upload/v1776063401/lv_0_20260326180153_zsnr4j.mp4",
   gwarancja_punkty: [
     {
       tytul: "Wiesz dokładnie, kiedy zaczynamy i kończymy",
