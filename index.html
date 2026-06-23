@@ -34,7 +34,7 @@ var DANE = {
   hero_cta: "Porozmawiajmy",
 
   // --- GWARANCJA ---
-  gwarancja_tytul: "Gwarancja\nterminowości",
+  gwarancja_tytul: "Gwarancja<br>terminowości",
   gwarancja_kwota: "3000 zł",
   gwarancja_opis: "Jeśli nie przyjedziemy na czas – dajemy Ci 3000 zł. Tak bardzo wierzymy w nasze słowo. Terminowość to dla nas absolutny standard, nie wyjątek. Klient liczy na nas – i my się nie zawiedziemy.",
   gwarancja_video_url: "https://res.cloudinary.com/dp2cyudg1/video/upload/v1776063401/lv_0_20260326180153_zsnr4j.mp4",
@@ -260,6 +260,9 @@ var DANE = {
     #gwarancja { background: var(--bg-cream); }
 
     .gwarancja-grid { display: grid; grid-template-columns: 1.3fr 0.7fr; gap: 40px; align-items: center; }
+    .gwarancja-grid > div:first-child {
+    max-width: 600px;
+}
 
     .gwarancja-points { display: flex; flex-direction: column; gap: 20px; margin-top: 28px; }
 
@@ -267,7 +270,7 @@ var DANE = {
     background: #1a1a1a;
     border-radius: var(--radius);
     aspect-ratio: 9/16;
-    max-width: 320px;
+    max-width: 300px;
     margin: 0 auto;
     display: flex;
     align-items: center;
